@@ -61,8 +61,22 @@
     font: 11px/1.5 ui-monospace, Menlo, monospace;
   }
   @media (max-width: 640px) {
-    #painel { width: 158px; font-size: 9px; left: 8px; }
-    .cel { height: 30px; padding: 0 8px; }
+    #painel {
+      left: 0; right: 0; top: auto; bottom: 0;
+      width: 100%; transform: none;
+      display: flex; flex-wrap: wrap;
+      font-size: 9px;
+      border: 0; border-top: 1px solid #2c2f35;
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+    #painel .cel, #painel button.cel {
+      flex: 1 1 25%; width: auto; height: 36px;
+      border-top: 0; border-right: 1px solid #22252b;
+      box-shadow: none;
+    }
+    #painel .cel.cabecalho { flex: 1 1 100%; }
+    #painel .cel.secao { display: none; }
+    #btn { bottom: calc(76px + env(safe-area-inset-bottom)); }
   }
 </style>
 </head>
