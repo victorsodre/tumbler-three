@@ -1,8 +1,7 @@
-Tumbler Batpod. v0.1.
+Tumbler. v0.2.
 HTML único, offline. Abre no browser.
 Live: https://victorsodre.github.io/tumbler-three/
+Camo metálico default. Estúdio.
+Dois clips: BATPOD e LIGHTWINGS.
 Grok Bot modelou, rigou e animou.
-Claude juntou o HTML.
-Um botão: SOLTAR RODAS · MONTAR BATPOD.
-Clip eject_batpod. O JS só scrubba.
 Feature: abre uma issue.
